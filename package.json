@@ -1,0 +1,32 @@
+{
+  "name": "nagios-api",
+  "version": "0.0.1",
+  "description": "A NodeJS cli tool to be used with nagios-api.",
+  "main": "index.js",
+  "dependencies" : {
+    "request": "*",
+    "in-n-out": "*",
+    "mongoose": "~3.6.13",
+    "cheerio":"*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:alanmoran/node-nagios-api.git"
+  },
+  "keywords": [
+    "nagios",
+    "nagios-api",
+    "cli",
+    "monitoring"
+  ],
+  "author": "Alan Moran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanmoran/node-nagios-api/issues"
+  },
+  "homepage": "https://github.com/alanmoran/node-nagios-api"
+}
+
