@@ -1,32 +1,29 @@
 {
-  "name": "nagios-api",
+  "name": "boxfinder",
   "version": "0.0.1",
-  "description": "A NodeJS cli tool to be used with nagios-api.",
+  "description": "A node scripte to get every crossfit gym in Ireland",
   "main": "index.js",
   "dependencies" : {
-    "request": "*",
-    "in-n-out": "*",
+    "request": "~2.48.0",
+    "in-n-out": "~0.0.14",
     "mongoose": "~3.6.13",
-    "cheerio":"*"
+    "cheerio":"~0.18.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:alanmoran/node-nagios-api.git"
+    "url": "git@github.com:alanmoran/boxfinder.git"
   },
   "keywords": [
-    "nagios",
-    "nagios-api",
-    "cli",
-    "monitoring"
+    "crossfit"
   ],
   "author": "Alan Moran",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alanmoran/node-nagios-api/issues"
+    "url": "https://github.com/alanmoran/boxfinder/issues"
   },
-  "homepage": "https://github.com/alanmoran/node-nagios-api"
+  "homepage": "https://github.com/alanmoran/boxfinder"
 }
 
